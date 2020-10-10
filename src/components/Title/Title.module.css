@@ -1,0 +1,19 @@
+.appear {
+  opacity: 0.1;
+
+  transform: translateX(-60%);
+}
+
+.appearActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 45px;
+  color: blue;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}

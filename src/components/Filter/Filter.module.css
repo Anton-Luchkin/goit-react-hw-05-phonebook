@@ -1,0 +1,21 @@
+.filter {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input {
+  margin: 10px 0;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: rgba(128, 128, 128, 0.479) 1px solid;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.input:focus {
+  border: blue 1px solid;
+}

@@ -1,0 +1,37 @@
+.enter {
+  transform: translateX(100%);
+  opacity: 0.1;
+}
+
+.enterActive {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 250ms linear;
+}
+.exit {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 250ms linear;
+}
+
+.exitActive {
+  transform: translateX(100%);
+  opacity: 0.1;
+}
+
+.notificationBox {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 350px;
+  height: 70px;
+  background-color: red;
+  text-align: center;
+}
+
+.notificationText {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  line-height: 70px;
+}

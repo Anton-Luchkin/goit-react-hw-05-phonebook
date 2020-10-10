@@ -1,0 +1,55 @@
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+.lable {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.input {
+  margin: 10px 0;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: rgba(128, 128, 128, 0.479) 1px solid;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.input:focus {
+  border: blue 1px solid;
+}
+
+.btn {
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 2.5em;
+  line-height: 2.5em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #777;
+  color: #fff;
+  outline: none;
+  border: 2px solid #6bf62b;
+  border-radius: 5px;
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0) inset,
+    0.1em 0.1em 0.2em rgb(0, 136, 7);
+  background: linear-gradient(#47f355, #1bdf3c 48%, #20df19 52%, #2dfc3e);
+}
+
+.btn:active {
+  top: 0.1em;
+  left: 0.1em;
+  box-shadow: 0 0 0 60px rgba(0, 0, 0, 0.05) inset;
+}
